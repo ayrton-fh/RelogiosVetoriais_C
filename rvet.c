@@ -24,9 +24,24 @@ void Event(int pid, Clock *clock){
 }
 
 
+/*
+void Send(int pidE, int pidR, Clock *clock) {
+   // Alterar relógio
+   // Utilizar MPI
+}
+*/
+
 void Send(int pid, Clock *clock){
    // TO DO
 }
+
+
+/*
+void Receive(int pidE, int pidR, Clock *clock) {
+   // Analisar o relógio
+   // Utilizar MPI
+}
+*/
 
 void Receive(int pid, Clock *clock){
    // TO DO
